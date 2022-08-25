@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: #1C1C1C;
+}
+
+.container {
+    background-color: #1F2937;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-right: 60px;
+    width: 600px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: Karla;
+}
+.green {
+    color: #4ADF86;
+}
+
+.line1 {
+    color: #D5D4D8;
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.generator {
+    margin-top: 60px;
+    padding: 5px;
+    width: 191px;
+    height: 42px;
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.breakline {
+    height: 1px;
+    width: auto;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.rectangles {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    
+}
+
+.pass1, .pass2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #273549;
+    border-radius: 5px;
+    width: 211px;
+    height: 39px;
+    color: #10B981;
+}
